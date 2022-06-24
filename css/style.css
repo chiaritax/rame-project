@@ -791,7 +791,7 @@
   
   
   /*--------------------------------------------------------------
-  # Contact
+  # Contacto
   --------------------------------------------------------------*/
   .contact .info {
     width: 100%;
@@ -808,7 +808,7 @@
     float: left;
     width: 44px;
     height: 44px;
-    background: #eaf6e9;
+    background: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -841,84 +841,12 @@
     color: #fff;
   }
   
-  .contact .php-email-form {
-    width: 100%;
+  .contact .servicio1{
     background: #fff;
     padding: 20px;
     border-radius: 5px;
-  }
-  
-  .contact .php-email-form .form-group {
-    padding-bottom: 8px;
-  }
-  
-  .contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .contact .php-email-form .error-message br + br {
-    margin-top: 25px;
-  }
-  
-  .contact .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #3C787E;
+    margin-top: 20px;
     text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-  }
-  
-  .contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #3C787E;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-  }
-  
-  .contact .php-email-form input, .contact .php-email-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-  }
-  
-  .contact .php-email-form input {
-    height: 44px;
-  }
-  
-  .contact .php-email-form textarea {
-    padding: 10px 12px;
-  }
-  
-  .contact .php-email-form button[type="submit"] {
-    background: #3C787E;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 4px;
-  }
-  
-  .contact .php-email-form button[type="submit"]:hover {
-    color: #000;
   }
   
   @-webkit-keyframes animate-loading {
@@ -939,72 +867,25 @@
     }
   }
   
-  /*--------------------------------------------------------------
-  # Breadcrumbs
-  --------------------------------------------------------------*/
-  .breadcrumbs {
-    padding: 40px 0;
-  }
-  
-  .breadcrumbs h2 {
-    font-size: 26px;
-    font-weight: 300;
-  }
-  
-  .breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-  }
-  
-  .breadcrumbs ol li + li {
-    padding-left: 10px;
-  }
-  
-  .breadcrumbs ol li + li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #2f2f2f;
-    content: "/";
-  }
-  
-  @media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-      display: block !important;
-    }
-    .breadcrumbs ol {
-      display: block;
-    }
-    .breadcrumbs ol li {
-      display: inline-block;
-    }
-  
-    #mapa{
-      margin-left: 0%;
-    }
-  }
   
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
   #footer {
-    background: url("../img/footer-bg.jpg") center center no-repeat;
-    color: #fff;
+    background: url("../multimedia/fondo-principal.webp") center center no-repeat;
+    background-size: cover;
+    color: rgb(20, 20, 20);
     font-size: 14px;
     position: relative;
   }
   
   #footer::before {
-    content: "";
+    
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.85);
     z-index: 1;
   }
   
@@ -1020,71 +901,34 @@
   }
   
   #footer .footer-top h3 {
-    font-size: 36px;
+    font-size: 66px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(20, 20, 20);
     position: relative;
-    font-family: "Zeroes", sans-serif;
+    font-family: 'Joan', serif;
     padding: 30px 0 0 0;
     margin-bottom: 0;
   }
   
   #footer .footer-top p {
-    font-size: 15;
-    font-style: italic;
+    font-size: 45;
+    font-family: 'Joan', serif;
     margin: 30px 0 0 0;
     padding: 0;
   }
   
-  #footer .footer-top .footer-newsletter {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 30px;
-  }
-  
-  #footer .footer-top .footer-newsletter form {
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    text-align: left;
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="email"] {
-    border: 0;
-    padding: 4px 8px;
-    width: calc(100% - 100px);
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    right: -1px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #3C787E;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    color: #000;
-  }
-  
+    #footer .footer-top .social-icons {
+        margin-top: 30px;
+    }
+
   #footer .footer-top .social-links {
     margin-top: 30px;
   }
   
   #footer .footer-top .social-links a {
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
-    background: #3C787E;
+    background: #d559a5;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1097,7 +941,7 @@
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #3C787E;
+    background: #d559a5;
     color: #000;
     text-decoration: none;
   }
@@ -1112,11 +956,27 @@
   
   #footer .copyright {
     text-align: center;
+    font-size: 20px;
   }
   
   #footer .credits {
     text-align: center;
-    font-size: 13px;
+    font-size: 20px;
     padding-top: 5px;
+    color: black;
   }
+
+  #footer .credits a {
+        color: #d559a5;
+    }
+
+    .division1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       text-align: center;
+    }
+    .division1 img{
+        width: 3%
+        
+    }
   
