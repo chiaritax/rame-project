@@ -493,12 +493,12 @@
   .services .icon-box i {
     font-size: 48px;
     float: left;
-    color: #3C787E;
+    color: #d559a5;
   }
   
   .services .icon-box p {
     font-size: 15px;
-    color: #959595;
+    color: #1d1d1d;
     margin-left: 60px;
   }
   
@@ -535,7 +535,7 @@
   }
   
   .featured .nav-link:hover h4 {
-    color: #3C787E;
+    color: #d559a5;
   }
   
   .featured .nav-link p {
@@ -548,7 +548,7 @@
   }
   
   .featured .nav-link.active h4 {
-    color: #3C787E;
+    color: #d559a5;
   }
   
   .featured .tab-pane.active {
